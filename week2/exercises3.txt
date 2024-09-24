@@ -49,5 +49,3 @@ print "substruction of num1 and num2 is 0"
 		
 		
 Ex. 3.1.5 (*) - Combine		
-		
-//Promp ask user whether want to use add of substract of two number		
