@@ -42,4 +42,6 @@ print "substruction of num1 and num2 is result"
 else		
 print "substruction of num1 and num2 is 0"		
 		
+Ex. 3.1.5  - Combine
+Prompt, ask user whether want to add up the numbers, enter a or substract to enter s
 	
