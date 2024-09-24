@@ -35,16 +35,11 @@ Define 2 variable as number
 Prompt ask 2 numbers from user		
 store and print "num1" and "num2"		
 		
-if num1>num2		
+if num1>num2 or num2>num1		
 Initiliaze to substract the numbers		
 print "substruction of num1 and num2 is result"		
-		
-else if num2<num1		
-Initiliaze to substract the numbers		
-print "substruction of num1 and num2 is result"		
-		
+					
 else		
 print "substruction of num1 and num2 is 0"		
 		
-		
-Ex. 3.1.5 (*) - Combine		
+	
