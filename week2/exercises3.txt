@@ -8,9 +8,8 @@ Print "Hello, USERNAME"
 		
 		
 Ex. 3.1.2 - Add numbers		
-Define 2 variable as number		
-Prompt ask 2 numbers from user		
-print "num1" and "num2"		
+Define 3 variable, num1, num2 and result	
+Prompt ask 2 numbers(num1 and num2) from user			
 		
 Read number in to variable		
 Store the num1 and num2 and initiliaze to add up the numbers		
