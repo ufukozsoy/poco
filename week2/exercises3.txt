@@ -43,5 +43,13 @@ else
 print "substruction of num1 and num2 is 0"		
 		
 Ex. 3.1.5  - Combine
+Define 2 variable as substruction as s or addition
+Define 2 variable as number, num1 and num2
 Prompt, ask user whether want to add up the numbers, enter a or substract to enter s
-	
+Prompt ask 2 numbers from user, num1 and num2
+if user choose substruction
+print substruction
+if user choose addition 
+print addition
+
+Ex.
