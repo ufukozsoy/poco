@@ -1,27 +1,21 @@
-let name="John";
-let surname="Doe";
+const myInt = 5;
+const myFloat = 6.667;
+myInt;
+myFloat;
 
-console.log(name);
-console.log(surname);
+typeof myInt;
+typeof myFloat;
 
-let age=11;
-console.log(age);
+function favouirteAnimal (animal){
+    return animal + " is my favourite animal"
+}
+console.log(favouirteAnimal("goat"))
 
-age=54;
-console.log(age)
+let arr = ["I", "go", "home"];
 
-const pi=3.14
-console.log(pi)
-console.log(23+97)
-console.log((4+6+9)/77)
+delete arr[1]; // remove "go"
 
-let a=10
-console.log(a)
-console.log(9*a)
-let b=7*a
-console.log(b)
+alert( arr[1] ); // undefined
 
-let max=57
-let actual=max-13
-let percentage=actual/max
-console.log(percentage)
+// now arr = ["I",  , "home"];
+alert( arr.length ); // 3
