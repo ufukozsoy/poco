@@ -1,28 +1,68 @@
-const myInt = 5;
-const myFloat = 6.667;
-myInt;
-myFloat;
 
-typeof myInt;
-typeof myFloat;
-
-function favouirteAnimal (animal){
-    return animal + " is my favourite animal"
+let password=prompt("enter the password: ");
+let length=password.length;
+c1=false
+if (length>=8){
+c1=true;
 }
-console.log(favouirteAnimal("goat"))
+console.log(c1);
 
-let arr = ["I", "go", "home"];
+let specialChar=["!", "%", "?", "&"];
 
-delete arr[1]; // remove "go"
+for (i=0; i<length; i++){
+    console.log(password[i]);
+}
 
-alert( arr[1] ); // undefined
 
-// now arr = ["I",  , "home"];
-alert( arr.length ); // 3
+let specialChar=["!", "%", "?", "&"];
 
-let firstName="Ufuk"
-let lastName="Özsoy"
-console.log(firstName)
+for (i=0; i<length; i++){
+    
+    for(g=0; g<specialChar.length; g++){
+    if (password[i]===specialChar[g]){
+        c2=true;}
+    }    
+    //this checks the number
+    for(m=0; m<num.length; m++){
+    if (password[i]==num[m]){
+        
+        c3=true;}
+    } // number checks ends 
+    
+    //this checks the space
+    if (password[i]===" "){
+    c4=false;}
+}
+console.log("password has special character: " + c2)
+
+
+/*
+for (k=0; k<length; k++){
+    console.log(password[k]);
+    
+    for(m=0; m<num.length; m++){
+    if (password[k]==num[m]){
+        
+        c3=true;}
+    }    
+}
+console.log("password have numbers: " + c3)
+
+    
+let space=" ";
+
+for (i=0; i<length; i++){
+   
+    if (password[i]===space){
+        c4=false;}
+   
+}
+*/
+console.log("password hasn't space: " + c4)
+
+
+
+
 
 
 
